@@ -1,0 +1,5 @@
+Solution Propose: j'ai crée  une fonction "daemon" qui vérifie si un élément spécifique d'une liste est plus grand que tous les éléments à sa gauche et plus petit que tous les éléments à sa droite.
+
+Utilisation de la fonction : Pour verifiér qui la fonction marche, elle prend en entrée une liste d'entiers "numbers" et un index "k". Elle parcourt chaque élément de la liste. Pour chaque élément, elle vérifie si une condition spécifique est satisfaite par rapport à l'élément à l'indice "k". Si la condition n'est pas satisfaite pour au moins un élément, la fonction retourne "False". Sinon, elle retourne "True"
+
+Complexité algorithmique: L'algorithme de la complexité temporelle totale de la fonction daemon est O(n), où n est la longueur de la liste "numbers". Cela signifie que le temps d'exécution du code peut croître proportionnellement à la taille de la liste.
